@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Caffinity Café — coffee, comfort and connections.">
+  <title>Contact | Caffinity Café</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav" aria-label="Primary navigation">
+  <a class="brand" href="index.html">
+    <img src="images/logo.jpeg" alt="Caffinity Café logo">
+    <span>Caffinity <small>Café</small></span>
+  </a>
+  <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a class="nav-order" href="order.html">Order Now</a>
+  </div>
+</nav>
+
+<main>
+  <section class="page-hero">
+    <div>
+      <p class="eyebrow">COME SAY HELLO</p>
+      <h1>Let's keep the conversation brewing.</h1>
+      <p>Reach out for a table, a question, or simply to say hello.</p>
+    </div>
+  </section>
+  <section class="section contact-grid">
+    <div class="contact-info reveal">
+      <div class="section-kicker">CAFFINITY CAFÉ</div>
+      <h2>Find your corner.</h2>
+      <div class="contact-line"><span>⌖</span><div><strong>Address</strong><p>18 Amber Lane, The Caffinity Quarter<br>Fictional City, India</p></div></div>
+      <div class="contact-line"><span>◷</span><div><strong>Hours</strong><p>Monday–Sunday<br>8:00 AM–10:00 PM</p></div></div>
+      <div class="contact-line"><span>✉</span><div><strong>Email</strong><p>hello@caffinity.example</p></div></div>
+    </div>
+    <form class="form-card reveal" id="contactForm">
+      <div class="section-kicker">SEND A NOTE</div>
+      <h2>We'd love to hear from you.</h2>
+      <label>Name<input type="text" name="name" required placeholder="Your name"></label>
+      <label>Email<input type="email" name="email" required placeholder="you@example.com"></label>
+      <label>Message<textarea name="message" rows="5" required placeholder="Write your message..."></textarea></label>
+      <button class="btn btn-primary" type="submit">Send Message</button>
+      <p class="form-status" id="contactStatus"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <a class="footer-brand" href="index.html">CAFFINITY <span>CAFÉ</span></a>
+      <p>Coffee + connections, served with a little golden glow.</p>
+    </div>
+    <div class="footer-links">
+      <a href="menu.html">Menu</a>
+      <a href="about.html">Our Story</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="order.html">Order Now</a>
+    </div>
+    <div class="footer-note">
+      <p>Mon–Sun · 8:00 AM–10:00 PM</p>
+      <p>Made for good coffee and great company.</p>
+    </div>
+  </div>
+  <div class="footer-bottom">© <span class="year"></span> Caffinity Café · Coffee + Connections</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

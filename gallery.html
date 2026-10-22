@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Caffinity Café — coffee, comfort and connections.">
+  <title>Gallery | Caffinity Café</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav" aria-label="Primary navigation">
+  <a class="brand" href="index.html">
+    <img src="images/logo.jpeg" alt="Caffinity Café logo">
+    <span>Caffinity <small>Café</small></span>
+  </a>
+  <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a class="nav-order" href="order.html">Order Now</a>
+  </div>
+</nav>
+
+<main>
+  <section class="page-hero">
+    <div>
+      <p class="eyebrow">A LOOK INSIDE</p>
+      <h1>Welcome to the Caffinity moodboard.</h1>
+      <p>Original visual concepts created specifically for this fictional café, keeping the same warm architectural language throughout.</p>
+    </div>
+  </section>
+  <section class="section gallery-section">
+    <div class="gallery-grid">
+      <figure class="gallery-item gallery-wide reveal">
+        <img src="images/gallery-interior.jpg" alt="Caffinity interior and espresso bar">
+        <figcaption><span>01</span> The espresso bar</figcaption>
+      </figure>
+      <figure class="gallery-item reveal">
+        <img src="images/gallery-window.jpg" alt="Window-side lounge at Caffinity">
+        <figcaption><span>02</span> Window-side quiet</figcaption>
+      </figure>
+      <figure class="gallery-item reveal">
+        <img src="images/gallery-coffee.jpg" alt="Latte and pastry on a wooden table">
+        <figcaption><span>03</span> Coffee & pastry</figcaption>
+      </figure>
+      <figure class="gallery-item gallery-wide reveal">
+        <img src="images/gallery-entrance.jpg" alt="Caffinity Café entrance glowing at evening">
+        <figcaption><span>04</span> After-dark glow</figcaption>
+      </figure>
+    </div>
+  </section>
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" data-close-lightbox aria-label="Close image">×</button>
+    <img id="lightboxImage" src="" alt="">
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <a class="footer-brand" href="index.html">CAFFINITY <span>CAFÉ</span></a>
+      <p>Coffee + connections, served with a little golden glow.</p>
+    </div>
+    <div class="footer-links">
+      <a href="menu.html">Menu</a>
+      <a href="about.html">Our Story</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="order.html">Order Now</a>
+    </div>
+    <div class="footer-note">
+      <p>Mon–Sun · 8:00 AM–10:00 PM</p>
+      <p>Made for good coffee and great company.</p>
+    </div>
+  </div>
+  <div class="footer-bottom">© <span class="year"></span> Caffinity Café · Coffee + Connections</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
